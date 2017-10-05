@@ -14,4 +14,3 @@ with open("Users/mattlovelace/Desktop/structures.sdf") as f:
 #     with open("Users/mattlovelace/Desktop/structures.sdf") as f:
 # IOError: [Errno 2] No such file or directory:
 # 'Users/mattlovelace/Desktop/structures.sdf'
->>>>>> > be4c8d57d5c97eb07ded4b104deb63faf4694145
