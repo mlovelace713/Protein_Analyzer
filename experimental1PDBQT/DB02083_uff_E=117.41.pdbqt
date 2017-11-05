@@ -1,0 +1,22 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_4 
+REMARK    2  A    between atoms: C_4  and  C_5 
+REMARK    3  A    between atoms: C_5  and  O_6 
+ROOT
+HETATM    1  C   UNK N   1       1.757   0.762  -0.000  0.00  0.00     0.226 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  N   UNK N   1       0.943   1.987   0.000  0.00  0.00    -0.412 N 
+HETATM    3  C   UNK N   1       1.649   3.255  -0.000  0.00  0.00     0.143 C 
+HETATM    4  C   UNK N   1      -0.511   2.040  -0.000  0.00  0.00     0.143 C 
+ENDBRANCH   1   2
+BRANCH   1   5
+HETATM    5  C   UNK N   1       1.023  -0.561   0.000  0.00  0.00     0.157 C 
+HETATM    6  O   UNK N   1      -0.194  -0.625   0.000  0.00  0.00    -0.649 OA
+BRANCH   5   7
+HETATM    7  O   UNK N   1       1.741  -1.700  -0.000  0.00  0.00    -0.775 OA
+HETATM    8  H   UNK N   1       1.304  -2.529  -0.000  0.00  0.00     0.167 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3

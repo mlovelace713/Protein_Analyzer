@@ -1,0 +1,26 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  Fe_3 
+REMARK    2  A    between atoms: Fe_3  and  N_4 
+REMARK    3  A    between atoms: N_4  and  N_6 
+REMARK    4  A    between atoms: N_6  and  N_7 
+ROOT
+HETATM    1  N   UNK N   1       1.058   0.472   0.000  0.00  0.00    -0.130 N 
+ATOM      2  HN  UNK N   1       1.747   1.224   0.000  1.00  0.00     0.228 HD
+ENDROOT
+BRANCH   1   3
+HETATM    3 Fe   UNK N   1       1.630  -1.415   0.000  0.00  0.00     0.000 Fe
+BRANCH   3   4
+HETATM    4  O   UNK N   1       3.459  -0.885   0.000  0.00  0.00     0.000 OA
+HETATM    5 Fe   UNK N   1       4.365  -2.564   0.000  0.00  0.00     0.000 Fe
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   6
+HETATM    6  N   UNK N   1      -0.132   0.721   0.000  0.00  0.00    -0.226 NA
+BRANCH   6   7
+HETATM    7  N   UNK N   1      -1.327   0.954   0.000  0.00  0.00    -0.259 N 
+HETATM    8  H   UNK N   1      -1.647   1.885   0.000  0.00  0.00     0.193 HD
+ATOM      9  HN  UNK N   1      -1.997   0.184   0.000  1.00  0.00     0.193 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4

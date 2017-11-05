@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_10  and  C_11 
+REMARK    2  A    between atoms: C_11  and  O_12 
+REMARK    3  A    between atoms: C_11  and  P_13 
+REMARK    4  A    between atoms: P_13  and  O_15 
+REMARK    5  A    between atoms: P_13  and  O_16 
+ROOT
+HETATM    1  C   UNK N   1      -2.457  -2.375  -0.016  0.00  0.00     0.001 A 
+HETATM    2  C   UNK N   1      -1.198  -2.974  -0.007  0.00  0.00     0.012 A 
+HETATM    3  C   UNK N   1      -0.042  -2.187   0.024  0.00  0.00    -0.025 A 
+HETATM    4  C   UNK N   1      -0.135  -0.767   0.040  0.00  0.00    -0.017 A 
+HETATM    5  C   UNK N   1      -1.413  -0.196   0.029  0.00  0.00     0.013 A 
+HETATM    6  C   UNK N   1      -2.564  -0.986   0.005  0.00  0.00     0.001 A 
+HETATM    7  C   UNK N   1       1.200  -2.814   0.043  0.00  0.00     0.012 A 
+HETATM    8  C   UNK N   1       2.364  -2.057   0.092  0.00  0.00     0.002 A 
+HETATM    9  C   UNK N   1       2.293  -0.666   0.113  0.00  0.00     0.011 A 
+HETATM   10  C   UNK N   1       1.063   0.016   0.076  0.00  0.00    -0.007 A 
+ENDROOT
+BRANCH  10  11
+HETATM   11  C   UNK N   1       1.175   1.548   0.069  0.00  0.00     0.263 C 
+BRANCH  11  12
+HETATM   12  O   UNK N   1       2.032   1.914  -0.971  0.00  0.00    -0.379 OA
+HETATM   13  H   UNK N   1       2.550   1.525  -1.694  0.00  0.00     0.211 HD
+ENDBRANCH  11  12
+BRANCH  11  14
+HETATM   14  P   UNK N   1      -0.361   2.608  -0.115  0.00  0.00     0.270 P 
+HETATM   15  O   UNK N   1      -1.350   2.432   1.069  0.00  0.00    -0.652 OA
+BRANCH  14  16
+HETATM   16  O   UNK N   1      -0.039   4.312  -0.133  0.00  0.00    -0.327 OA
+HETATM   17  H   UNK N   1       0.876   4.633  -0.143  0.00  0.00     0.220 HD
+ENDBRANCH  14  16
+BRANCH  14  18
+HETATM   18  O   UNK N   1      -1.298   2.285  -1.541  0.00  0.00    -0.327 OA
+HETATM   19  H   UNK N   1      -1.716   2.648  -2.337  0.00  0.00     0.220 HD
+ENDBRANCH  14  18
+ENDBRANCH  11  14
+ENDBRANCH  10  11
+TORSDOF 5
