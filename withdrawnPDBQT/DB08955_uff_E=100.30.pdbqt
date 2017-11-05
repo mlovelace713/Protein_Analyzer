@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_9  and  C_8 
+REMARK    2  A    between atoms: C_11  and  C_8 
+REMARK    3  A    between atoms: C_12  and  C_10 
+REMARK    4  A    between atoms: C_13  and  C_10 
+REMARK    5  A    between atoms: O_16  and  C_13 
+REMARK    6  A    between atoms: N_14  and  O_17 
+ROOT
+HETATM    1  C   UNK N   1       2.009  -0.341  -0.826  0.00  0.00     0.007 A 
+HETATM    2  C   UNK N   1       0.186  -0.361   0.764  0.00  0.00     0.007 A 
+HETATM    3  C   UNK N   1       2.157   1.037  -0.636  0.00  0.00     0.008 A 
+HETATM    4  C   UNK N   1       0.335   1.009   0.957  0.00  0.00     0.008 A 
+HETATM    5  C   UNK N   1       1.011  -1.044  -0.141  0.00  0.00    -0.058 A 
+HETATM    6  C   UNK N   1       1.306   1.725   0.246  0.00  0.00    -0.046 A 
+ENDROOT
+BRANCH   6   7
+HETATM    7  C   UNK N   1       1.371   3.224   0.424  0.00  0.00     0.091 C 
+HETATM    8  C   UNK N   1       2.546   3.868  -0.304  0.00  0.00     0.023 C 
+BRANCH   7   9
+HETATM    9  C   UNK N   1       0.082   3.887  -0.011  0.00  0.00     0.143 C 
+HETATM   10  N   UNK N   1      -0.106   5.134   0.234  0.00  0.00    -0.251 N 
+ATOM     11  HN  UNK N   1       0.618   5.670   0.712  1.00  0.00     0.196 HD
+BRANCH  10  12
+HETATM   12  O   UNK N   1      -1.227   5.727  -0.125  0.00  0.00    -0.288 OA
+HETATM   13  H   UNK N   1      -1.261   6.628  -0.381  0.00  0.00     0.244 HD
+ENDBRANCH  10  12
+BRANCH   9  14
+HETATM   14  O   UNK N   1      -0.875   3.173  -0.645  0.00  0.00    -0.348 OA
+HETATM   15  H   UNK N   1      -1.635   3.500  -1.085  0.00  0.00     0.219 HD
+ENDBRANCH   9  14
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+BRANCH   5  16
+HETATM   16  C   UNK N   1       0.820  -2.508  -0.424  0.00  0.00     0.042 C 
+BRANCH  16  17
+HETATM   17  C   UNK N   1      -0.500  -3.082   0.093  0.00  0.00    -0.019 C 
+HETATM   18  C   UNK N   1      -0.512  -4.580  -0.118  0.00  0.00     0.010 C 
+HETATM   19  C   UNK N   1      -1.676  -2.477  -0.658  0.00  0.00     0.010 C 
+ENDBRANCH  16  17
+ENDBRANCH   5  16
+TORSDOF 6

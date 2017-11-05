@@ -1,0 +1,74 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_22  and  C_5 
+REMARK    2  A    between atoms: C_23  and  C_6 
+REMARK    3  A    between atoms: C_12  and  C_11 
+REMARK    4  A    between atoms: C_20  and  C_11 
+REMARK    5  A    between atoms: C_29  and  C_12 
+REMARK    6  A    between atoms: C_24  and  C_16 
+REMARK    7  A    between atoms: C_26  and  C_16 
+REMARK    8  A    between atoms: C_29  and  C_21 
+REMARK    9  A    between atoms: O_39  and  C_25 
+ROOT
+HETATM    1  C   UNK N   1      -1.817  -1.033   0.558  0.00  0.00     0.104 C 
+HETATM    2  C   UNK N   1      -0.852   1.227   0.725  0.00  0.00     0.053 C 
+HETATM    3  C   UNK N   1      -1.128   0.065   1.333  0.00  0.00     0.059 C 
+HETATM    4  C   UNK N   1      -1.064   1.320  -0.728  0.00  0.00     0.293 C 
+HETATM    5  C   UNK N   1      -1.402  -1.084  -0.944  0.00  0.00     0.080 C 
+HETATM    6  O   UNK N   1      -1.043   2.404  -1.291  0.00  0.00    -0.259 OA
+HETATM    7  O   UNK N   1      -1.124   0.179  -1.460  0.00  0.00    -0.305 OA
+ENDROOT
+BRANCH   5   8
+HETATM    8  C   UNK N   1      -2.518  -1.621  -1.830  0.00  0.00     0.044 C 
+BRANCH   8   9
+HETATM    9  C   UNK N   1      -3.855  -0.959  -1.589  0.00  0.00     0.041 C 
+BRANCH   9  10
+HETATM   10  C   UNK N   1      -4.659  -1.792  -0.653  0.00  0.00    -0.054 A 
+HETATM   11  C   UNK N   1      -4.475  -3.180  -0.557  0.00  0.00     0.032 A 
+HETATM   12  C   UNK N   1      -5.269  -3.919   0.315  0.00  0.00     0.009 A 
+HETATM   13  N   UNK N   1      -6.224  -3.293   1.057  0.00  0.00    -0.363 N 
+HETATM   14  C   UNK N   1      -6.422  -1.948   0.970  0.00  0.00     0.009 A 
+ATOM     15  HN  UNK N   1      -6.803  -3.843   1.691  1.00  0.00     0.165 HD
+HETATM   16  C   UNK N   1      -5.635  -1.177   0.115  0.00  0.00     0.032 A 
+BRANCH  12  17
+HETATM   17  C   UNK N   1      -5.077  -5.392   0.418  0.00  0.00     0.052 C 
+HETATM   18  C   UNK N   1      -6.342  -6.115  -0.004  0.00  0.00     0.011 C 
+ENDBRANCH  12  17
+BRANCH  14  19
+HETATM   19  C   UNK N   1      -7.507  -1.302   1.751  0.00  0.00     0.052 C 
+HETATM   20  C   UNK N   1      -8.512  -0.672   0.801  0.00  0.00     0.011 C 
+ENDBRANCH  14  19
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+BRANCH   5  21
+HETATM   21  C   UNK N   1      -0.252  -2.104  -1.127  0.00  0.00     0.021 C 
+HETATM   22  C   UNK N   1      -0.702  -3.516  -0.721  0.00  0.00     0.007 C 
+HETATM   23  C   UNK N   1       0.456  -4.173  -0.005  0.00  0.00     0.000 C 
+HETATM   24  C   UNK N   1       1.621  -3.217  -0.149  0.00  0.00     0.000 C 
+HETATM   25  C   UNK N   1       0.999  -1.844  -0.316  0.00  0.00     0.007 C 
+ENDBRANCH   5  21
+BRANCH   3  26
+HETATM   26  O   UNK N   1      -0.822  -0.121   2.634  0.00  0.00    -0.364 OA
+HETATM   27  H   UNK N   1      -0.828  -0.369   3.537  0.00  0.00     0.217 HD
+ENDBRANCH   3  26
+BRANCH   2  28
+HETATM   28  C   UNK N   1      -0.184   2.356   1.459  0.00  0.00     0.126 C 
+BRANCH  28  29
+HETATM   29  C   UNK N   1       1.222   2.395   0.960  0.00  0.00     0.117 A 
+HETATM   30  N   UNK N   1       1.863   3.497   0.483  0.00  0.00    -0.177 N 
+HETATM   31  C   UNK N   1       3.046   2.983   0.095  0.00  0.00     0.705 A 
+ATOM     32  HN  UNK N   1       1.534   4.461   0.432  1.00  0.00     0.185 HD
+HETATM   33  N   UNK N   1       4.086   3.663  -0.451  0.00  0.00    -0.194 N 
+HETATM   34  N   UNK N   1       3.111   1.671   0.305  0.00  0.00    -0.089 N 
+HETATM   35  C   UNK N   1       5.215   2.965  -0.788  0.00  0.00     0.024 A 
+ATOM     36  HN  UNK N   1       4.028   4.670  -0.607  1.00  0.00     0.184 HD
+HETATM   37  C   UNK N   1       6.383   3.677  -1.367  0.00  0.00     0.068 C 
+HETATM   38  C   UNK N   1       5.285   1.568  -0.584  0.00  0.00     0.052 A 
+HETATM   39  C   UNK N   1       4.183   0.918  -0.019  0.00  0.00     0.050 A 
+HETATM   40  C   UNK N   1       4.195  -0.553   0.214  0.00  0.00     0.071 C 
+HETATM   41  N   UNK N   1       1.980   1.280   0.850  0.00  0.00    -0.267 N 
+ATOM     42  HN  UNK N   1       1.727   0.333   1.132  1.00  0.00     0.189 HD
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+TORSDOF 9
