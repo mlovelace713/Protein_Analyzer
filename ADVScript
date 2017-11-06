@@ -2,7 +2,7 @@
 #SBATCH -J ADVTest
 #SBATCH -o ADVTest.o%j
 #SBATCH -n 1
-#SBATCH -p normal
+#SBATCH -p development
 #SBATCH --mail-user=mlovelace713@gmail.com
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
