@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -J ADVNU4Script
+#SBATCH -o ADVNU4Script.o%j
+#SBATCH -n 1
+#SBATCH -t 02:00:00
+#SBATCH -p development
+#SBATCH --mail-user=mlovelace713@gmail.com
+#SBATCH --mail-type=begin
+#SBATCH --mail-type=end
+
+ibrun bash $HOME/git/Protein_Analyzer/Scripts/Loop/LoopNU4.sh
