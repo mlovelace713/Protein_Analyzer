@@ -2,8 +2,8 @@
 #SBATCH -J ADVNU4Script
 #SBATCH -o ADVNU4Script.o%j
 #SBATCH -n 1
-#SBATCH -t 02:00:00
-#SBATCH -p development
+#SBATCH -t 28:00:00
+#SBATCH -p normal
 #SBATCH --mail-user=mlovelace713@gmail.com
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
